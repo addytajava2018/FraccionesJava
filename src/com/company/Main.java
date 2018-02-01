@@ -7,7 +7,7 @@ public class Main {
         Fraccion a=new Fraccion(1,2);
         Fraccion b=new Fraccion(3,4);
 
-        Fraccion resultado = a.restar(b);
+        Fraccion resultado = a.multiplicar(b);
         resultado.mostrar();
     }
 }

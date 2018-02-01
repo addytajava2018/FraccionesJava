@@ -23,6 +23,14 @@ public class Fraccion {
         return f;
     }
 
+    public Fraccion multiplicar(Fraccion a){
+        int cont1=(a.numerador*this.numerador);
+        int cont2=this.denominador*a.denominador;
+        Fraccion f=new Fraccion(cont1,cont2);
+        return f;
+    }
+
+
     public void mostrar(){
         System.out.println(numerador+"/"+denominador);
     }
